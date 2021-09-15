@@ -1,0 +1,87 @@
+{
+  "contenido": [
+    {
+      "tag": "saludo",
+      "patrones": [
+        "Hola",
+        "un saludo",
+        "buenos dias",
+        "buenas tardes",
+        "ola",
+        "buenas noches"
+      ],
+      "respuestas": [
+        "Hola, que tal, mi nombre es NEMJBot, espero resolver tus dudas con respecto a la homologacion de materias"
+      ]
+    },
+    {
+      "tag": "nombre",
+      "patrones": [
+        "como te llamas",
+        "cual es tu nombre"
+      ],
+      "respuestas": [
+        "Mi nombre es NEMJBot, espero ayudarte C: "
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patrones": [
+        "adios",
+        "chao","bueno",
+        "gracias"
+        
+      ],
+      "respuestas": ["Espero haber resuelto tus dudas, vuelve pronto C:"]
+    },
+    {
+      "tag": "homologacion1",
+      "patrones": ["Que es homologacion","De que se trata","En que consiste"],
+      "respuestas": [
+        "Es la transferencia de horas académicas o créditos, de asignaturas aprobadas"
+      ]
+    },
+    {
+      "tag": "homologacion02",
+      "patrones": ["Con quien puedo hablar","Con quien debo hablar" ,"Quien es el encargado","Quien me puede ayudar","A quien puedo acudir","Quien me puede guiar","Quien me puede informar"],
+      "respuestas": [
+        "Puedes informarte más con el Secretario Académico de tu departamento"
+      ]
+    },
+    {
+      "tag": "homologacion03",
+      "patrones": [
+       "Que documentos necesito","Que papeles requiero","Que papeles necesito","Que documentos requiero","Documentacion necesaria","Requisitos","Cuales son los requisitos"
+      ],
+      "respuestas": ["Necesitas la solicitud y tu récord académico."]
+    },
+    {
+      "tag": "homologacion04",
+      "patrones": ["Cual es el formato de la solicitud","En donde puedo revisar el formato","En donde se encuentra el formato"],
+      "respuestas": [
+        "Puedes obtener el formato del siguiente link: https://electromecanica-el.espe.edu.ec/solicitudes/"
+      ]
+    },
+    {
+      "tag": "homologacion05",
+      "patrones": ["Cuanto tiempo tarda","Cuanto dura el proceso","Que tiempo toma","Cuanto demora","En que tiempo","En que tiempo esta listo"],
+      "respuestas": [
+        "A partir del inicio de clases el proceso puede dura 10 días."
+      ]
+    },
+    {
+      "tag": "homologacion06",
+      "patrones": [
+        "Cuando puedo comenzar","Cuando debo entregar la solicitud","hay una fecha para entregar la solicitud"
+      ],
+      "respuestas": [
+        "Tienes que presentar la solicitud 45 días antes de iniciar el semestre"
+      ]
+    },
+    {
+      "tag": "desconocido",
+      "patrones": ["sin sentido"],
+      "respuestas": ["Lo siento, no te entiendo :c"]
+    }
+  ]
+}
