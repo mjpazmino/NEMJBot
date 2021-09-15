@@ -62,8 +62,8 @@ def get_response(prediction, data):
 
 
 def main():
-    DISCORD_TOKEN = "ODg1NjI5MjY1Mjg1MDk5NTgw.YTp0hw.JpJt1SypUNNPAGCNzoZi59jNLec"
-
+    #token generado por discord developer
+    DISCORD_TOKEN = ".........."
     lemmatizer = WordNetLemmatizer()
 
     ignore_words = ['¿', '?', '¡', '!']
