@@ -62,7 +62,7 @@ def get_response(prediction, data):
 
 
 def main():
-    #token generado por discord developer
+    # Token generado por Discord Developer
     DISCORD_TOKEN = ".........."
     lemmatizer = WordNetLemmatizer()
 
